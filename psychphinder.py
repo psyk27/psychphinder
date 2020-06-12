@@ -1,3 +1,4 @@
+# coding: UTF-8
 import pandas as pd
 from colorama import init, Style
 import sys
