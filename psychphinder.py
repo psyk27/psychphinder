@@ -12,11 +12,11 @@ counter = 0
 if getattr(sys, 'frozen', False):
     os.chdir(sys._MEIPASS)
 
-df = pd.read_csv('dataframe.csv')
+df = pd.read_csv('data/dataframe.csv')
 
 while True:
     # Introductiom
-    logo = open('logo_mod.txt','r',encoding='UTF-8')
+    logo = open('data/logo.txt','r',encoding='UTF-8')
     print('\033[92m' + logo.read() + '\033[0m')
     print('\033[92m' + 'Welcome to psychphinder! One word, all lowercase, ph for the f.' + '\n' + 'Created by u/Psyk27 for the r/psych community.' + '\033[0m')
     sentence = input('\n' + "Enter a sentence: ")
